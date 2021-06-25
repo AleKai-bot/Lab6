@@ -41,12 +41,13 @@ android:orientation="vertical">
             <ImageView
                 android:id="@+id/tree"
                 android:layout_width="40dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:gravity="center"
-                app:srcCompat="@drawable/tree" />
+                app:srcCompat="@drawable/doc" />
+
         </LinearLayout>
 
 
@@ -122,26 +123,40 @@ android:orientation="vertical">
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:gravity="center"
-                android:text="Mantén la distancia"
+                android:text="Di lo que necesitas!"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/infoImg"
-                android:layout_width="40dp"
-                android:layout_height="100dp"
+                android:id="@+id/micro"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:gravity="center"
-                app:srcCompat="@drawable/buy" />
+                app:srcCompat="@drawable/micro" />
+
+
         </LinearLayout>
-
-
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/tvEscuchado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Escuchado"
+        />
+    <TextView
+        android:id="@+id/tvRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Respuesta"
+        />
 
 
 </GridLayout>

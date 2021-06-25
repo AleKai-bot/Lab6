@@ -10,15 +10,17 @@
     tools:context=".Login">
 
     <ImageView
-        android:layout_width="250dp"
-        android:layout_height="220dp"
+        android:layout_width="277dp"
+        android:layout_height="260dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/body"/>
+        android:src="@drawable/farma"/>
 
     <TextView
         android:id="@+id/authStatusTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+
         android:layout_centerInParent="true"
         android:textColor="@color/white"
         android:textSize="30sp"
